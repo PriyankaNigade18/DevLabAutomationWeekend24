@@ -1,0 +1,82 @@
+
+
+
+
+
+Variable Types
+===================
+1.Local variable
+-----------------
+Any variable declare inside a method that is called local
+
+scope: within method
+memory allocation:  At the execution of that method
+Memory deallocation: After the method execution
+
+2.Instance variable
+-----------------
+Any variable declare inside a class and outside method without static referenec
+that is called instance
+
+scope: within /Only Object
+memory allocation:  At the time of object creation
+Memory deallocation: After the Object destroy
+
+Note: Every new object instance variable get the new memory
+
+3.Static variable
+-----------------
+Any variable declare inside a class and outside method with static referenec
+that is called static 
+
+scope: within a class
+memory allocation:  At the time of class loading
+Memory deallocation: After the class unloding
+
+Note: 
+Static variable gets the memory only one time and it shared with all objects
+
+=================================================
+Static keyword plays important role in java
+Used for proper memory management
+static variable/static method/static block
+
+static block is used to initialized static variable
+first priority always goes to static block
+
+===============================================
+Methods In Java
+======================
+1.Instance method
+=====================
+method declare without static keyword
+To call instance need Object
+
+2.Static method
+=================
+Method declare with static keyword 
+To call static we don't need Object
+
+with /without class name
+--------------------------------
+1.Call static without class name inside same class
+2.class static with class name outside class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
