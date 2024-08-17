@@ -2,3 +2,30 @@
 1.Create a Employee class and declare two variables 
 empid and empname, create display method
 print two employee details.
+
+
+
+Live task On class and Object
+=============================
+Create a class for ProductDetails
+declare variable like product id ,product name and Product price
+declare a method to print the product details
+and create 2 product details
+
+
+Assignment on return keyword
+==========================
+Create calculator class
+declare 5 methods add(),sub(),mul(),div(),mod()
+and pass values at compile time and return the result (use return keyword)
+
+
+
+
+
+
+
+
+
+
+

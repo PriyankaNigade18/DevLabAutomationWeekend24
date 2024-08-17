@@ -63,6 +63,42 @@ with /without class name
 2.class static with class name outside class
 
 
+===========================================================
+17-08-2024
+================
+Type casting
+==============
+conversion of one type of data into another type 
+
+1.primitive to primitive
+============================
+	1.Implicit casting
+	======================
+	byte-->short--->char-->int-->long--->float-->double
+	Automatic conversion and responsibility of JVM
+	
+	2.Explicit Casting
+	==================
+	Manual conversion here we use casting operator.
+	double-->float-->long--->int-->short-->char--->byte
+
+Wrapper class In java
+======================
+1.Help to store primitive data as Object
+2.Collection of object we can store using Wrapper class
+
+primitive type         Wrapper class
+================       ===================
+int						Integer
+byte					Byte
+long					Long
+float					Float
+double					Double
+char					Character
+short					Short
+
+2.primitive to Object(Autoboxing)
+3.Object to primitive(Unboxing)
 
 
 

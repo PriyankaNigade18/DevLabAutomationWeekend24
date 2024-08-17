@@ -2,7 +2,7 @@ package com.CoreJava.Day1;
 
 public class AccessModifier 
 {
-	       int id=101;//default
+	int id=101;//default
 	public String name="Sarang";
 	private long phno=9987776665L;
 	
