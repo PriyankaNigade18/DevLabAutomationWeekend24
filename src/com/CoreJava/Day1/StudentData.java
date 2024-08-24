@@ -13,6 +13,11 @@ public class StudentData
 		System.out.println("Student name is:"+ name);
 	}
 	
+	StudentData(int i,String n)
+	{
+		id=i;
+		name=n;
+	}
 	public static void main(String args[])
 	{
 		/*
@@ -30,7 +35,7 @@ public class StudentData
 		 * 
 		 */
 		
-		StudentData s1=new StudentData();
+		/*StudentData s1=new StudentData();
 		//s1.show();
 		s1.id=101;
 		s1.name="Jay";
@@ -39,10 +44,11 @@ public class StudentData
 		StudentData s2=new StudentData();
 		s2.id=102;
 		s2.name="Abhi";
-		s2.show();
+		s2.show();*/
 		
 		
-		
+		StudentData s3=new StudentData(103,"Amit");
+		s3.show();
 		
 		
 		

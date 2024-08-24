@@ -46,8 +46,10 @@ public class CompileTimeParameterPassing
 		
 		c1.add();
 		c1.sub(500,100);
+		
 		String res=c1.info("Welcome to learn core concepts of Java");
 		System.out.println(res);
+		
 		double val=c1.data(78.88);
 		System.out.println(val);
 		

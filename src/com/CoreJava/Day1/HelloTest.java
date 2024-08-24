@@ -14,10 +14,10 @@ public class HelloTest {
 		MethodDemo m1=new MethodDemo();
 		m1.accept();
 		
-		StudentData s7=new StudentData();
-		s7.show();
-		s7.id=6666;
-		s7.show();
+//		StudentData s7=new StudentData();
+//		s7.show();
+//		s7.id=6666;
+//		s7.show();
 	}
 	
 	

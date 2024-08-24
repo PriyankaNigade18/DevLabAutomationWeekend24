@@ -20,6 +20,13 @@ declare 5 methods add(),sub(),mul(),div(),mod()
 and pass values at compile time and return the result (use return keyword)
 
 
+Assignments on Control flow
+================================
+1.accept two numbers and compare greater number
+2.accept number and check whether the number is positive or negative
+3.accept number and check whether it is even or odd
+4.accept environment name from user and test with Dev,Qa,stage,prod and print test case result
+
 
 
 
