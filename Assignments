@@ -28,6 +28,63 @@ Assignments on Control flow
 4.accept environment name from user and test with Dev,Qa,stage,prod and print test case result
 
 
+Assignments on Loop
+======================================
+1.Accept number from user and test whether it is palindrome
+
+number=121--->reverse--->121=palindrome
+
+
+2. test number is armstrong number
+ number =153
+ 		=1^3+5^3+3^3
+ 		=153 is armstrong
+ 		
+3. pattern examples
+=======================
+1
+12
+123
+1234
+
+1
+22
+333
+4444
+
+
+1
+23
+456
+78910
+
+
+1
+2
+3
+4
+5678910
+
+*
+*
+*
+*
+******
+
+
+1. Write a java code which print all even number upto 25
+2. write a java code which print all odd numbers upto 25
+
+
+
+
+
+
+
+
+
+
+
 
 
 
