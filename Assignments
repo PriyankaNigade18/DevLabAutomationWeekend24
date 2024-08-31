@@ -75,6 +75,26 @@ number=121--->reverse--->121=palindrome
 1. Write a java code which print all even number upto 25
 2. write a java code which print all odd numbers upto 25
 
+Array
+=============
+31-08-2024
+--------------
+
+Create an array and get the number of rows and number of columns and print
+the array using both for loop and for each loop
+(Object type)/DDT
+
+UserName    password
+Admin		admin123
+sumit		sumit123
+Rekha		rekha123
+Amit		amit123
+Jay			jay123
+
+Skip the heading from result
+
+
+
 
 
 

@@ -101,7 +101,24 @@ short					Short
 3.Object to primitive(Unboxing)
 
 
+=================================================
+String
+================
+string is collection of characters
+In Java String is Immutable class
 
+Ways
+=============
+1.Using Literal 
+2.Using new keyword
+
+Using literal way when we declare a string it creates it object 
+inside Jvm heap-->under SCP(String constant pool)
+
+Using new keyword when we declare string two objects will create one inside JVM heap area
+second inside SCP
+
+SCP is area for String Object it doesnt allowed duplicate strings
 
 
 
