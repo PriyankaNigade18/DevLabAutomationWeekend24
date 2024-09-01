@@ -2,27 +2,34 @@ package com.CoreJava.Array_String;
 
 public class PrimeNumberLogic {
 
-	public static void main(String[] args)
-	{
+	public static boolean isPrime(int n) {
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
-//		int count=1;
-//		for(int i=1;i<=10;i++)
-//		{
-//			for(int num=2;num<i;num++)
-//			{
-//			if(num%2==0)
-//			{
-//				count++;
-//			}
-//
-//
-//		}
-//			
-//		}
+    public static void main(String[] args) {
+        // number of primes printed so far
+        int cnt = 0;
+        // number to be checked for prime
+        int num = 2;
+
+        
+        while (cnt < 10) {
+            // Prime Check
+            if (isPrime(num)) {
+                System.out.println(num);
+                cnt++;
+            }
+            num++;
+        }
+    }
 		
-		
 
 
-	}
+	
 
 }
