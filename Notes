@@ -125,14 +125,85 @@ SCP is area for String Object it doesnt allowed duplicate strings
 
 Runtime polymorphism---done
 ======================
+8-09-2024
+==============
 Topics to be continue
 ------------------------
 1.super keyword
+===================
+Super keyword helps to access everything from immediate parent class
+1.variables
+2.Methods
+3.constructor
+
+
 2.final keyword
+=================
+const keyword
+const pi=3.14;---replace final
+1. when we declare any variable as final then nobody is able 
+make  the change
+2.when we declare method as final no one can override that method
+3.When we declare any class as final then no class can become subclass
 
+IQ:
+How to create any immutable class in java
+Ans: final keyword
+=========================================
 protected access modifier
+-------------------------------
+Data abstraction
+==================
+Abstraction will help us to hide internal structure of software 
+and provide important features to the user
+
+Purpose: Information hiding
+
+Implementation
+==================
+1.Partial Abstraction
+-----------------------
+Abstract class
+===============
+Abstract class is a class which declare with abstract keyword
+
+This class can have implemented method and non implemented method
+Non implemented method means method without body(abstract method)
+
+Abstract class is not fully implemented class as it has both type method
+and Object we can't create for any fully implemented
+
+We need child class to implement all non implemented methods
 
 
+2.100% Abstraction
+----------------------
+Interface
+=================
+Interface is special class which has all the data by default static and final,
+Methods are by default public and abstract
+
+Interface can have only abstract methods so we need child class to implement all
+abstract method
+
+Interface<-----implements -----child class
+
+
+Selenium WebDriver Setup
+============================
+
+
+
+
+
+Collection Framework
+==========================
+List
+Set
+
+Map interface
+
+Exception handling
 
 
 
