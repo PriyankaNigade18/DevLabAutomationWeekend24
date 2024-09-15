@@ -1,0 +1,55 @@
+
+Selenium WebDriver
+=====================
+Selenium WebDriver is an interface
+Selenium WebDriver is an API for WebUi automation test
+
+==========================================================
+How to Setup
+==================
+1.Using Java Project
+========================
+1.create new Java project
+2.Download jar from selenium.dev
+3.right click on project--->build path-->configure build path-->
+libraries-->classpath--->add external library
+
+2.Using Maven Project
+========================
+What is Maven
+=================
+Maven is build/project management tool
+
+What is pom.xml file
+========================
+POM means Project Object Model
+It is configuration file for Project
+
+1.dependencies
+2.plugins
+
+===============================================
+TestCase: Validate Title of Google application
+Step1: Open Browser and Google application
+Step2: Get the actual title from application
+Step3: Compare actual title vs Expected
+Step4: display appropriate result
+Step5: close the browser
+
+
+
+
+
+
+
+1.Browser Commands
+
+
+
+
+
+
+
+
+
+
