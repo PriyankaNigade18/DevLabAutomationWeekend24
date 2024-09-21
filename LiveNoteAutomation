@@ -36,13 +36,256 @@ Step3: Compare actual title vs Expected
 Step4: display appropriate result
 Step5: close the browser
 
+21-09-2024
+=============
+Browser Commands/WebDriver commands
+===============================
+1.get(url)
+2.getTitle()
+3.getCurrentUrl()
+4.getPageSource()
+5.close()-Close the current/active browser window
+6.quit()-quit will close all the open windows by selenium
+
+Navigation Commands
+==========================
+Navigation is interface in selenium
+
+driver.navigate(): Navigation interface object
+
+1.to(url): navigate to application
+----------------------------
+driver.navigate().to(url)
+
+2.back()
+----------------
+driver.navigate().back()
+
+3.forward()
+--------------
+driver.navigate().forward()
+
+4.refresh()
+-------------------
+driver.navigate().refresh()
+
+=======================================================
+What is WebElement?
+========================
+In general all the GUI elements are webElement
+textbox,searchbox,button,checkbox,link,radiobutton,list,dropdown,img
+
+In Selenium WebElement is an interface
+
+How to automate any webelement
+========================================
+1.Identify address of webelement
+2.Perform action on to webElement
+
+Selenium Identify WebElement using Locators
+================================================
+What is locator?
+Locator is address of WebElement from webPage
+
+Selenium Support total 8 Locators
+============================
+1.By id
+2.By name
+3.By className
+4.By linkText
+5.By partialLinkText
+6.By tagName
+
+dynamic Loctaors
+==================
+7.By cssSelctor
+8.By xpath
+
+What is By?
+===============
+By is class to get the weblement address
+
+To Idenitify WebElement selenium support methods
+======================================================
+1.findElement()
+==================
+driver.findElement(By loc)
+
+- findElement() identify single WebElement
+- this method returns WebElement interface object
+- when any element not found then this method throws exception-NoSuchElementException
+
+2.findElements()
+==================
+driver.findElements(By loc)
+
+- findElements() identify multiple webelements
+- this method returns List<WebElement>
+- when any element not found it never throws any exception
+
+
+==================================================
+Perform Actions on WebElement
+==============================
+textbox,searchbox---->type---------->sendKeys("text",Keys.Keyboard key)
+link,button,radio/check--->click---->click()
+To clear the written text------------>clear()
+
+WebElement validation commands
+===================================
+1.isDisplayed()
+
+2.isEnabled()
+
+3.isSelected()
+
+===================================
+By className
+===================
+class="btn btn-default btn-primary"
+		c1    c2           c3
+		
+		InvalidSelectorException: Compound class names not permitted
+		
+		Solution 
+		===============
+		Identify valid class name and use the same
+		
+==============================================
+How to automate HyperLink
+==============================
+<a id="SignIn" href="login.html">Sign In</a>
+<a>Link text</a>
+
+1.By linkText(full link text)
+===================================
+driver.findElement(By.linkText("Sign In"))
+
+
+2.By partialLinkText(partial text)
+=====================================
+driver.findElement(By.partialLinkText("In"))
+
+======================================================
+By tagName
+=================
+
+Multiple webelements may have same taname
+
+Number of textboxes
+Number of links
+Number of frames
+Number of images
+
+=======================================
+synchronization in Selenium
+=============================
+Whenever there is time mapping issue in between selenium and application
+then it is called synchronization issue
+
+Selenium support two Dynamic wait
+====================================
+1.Implicit Wait
+====================
+- It is global wait 
+- applicable to all the webelements
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+2.Explicit Wait
+======================
+- It is applicable to one single element at a time
+- Based on certain condition we can apply wait
+
+In selenium we can implement Explicit wait using 2 classes
+===================
+1.WebDriverWait class
+2.FluentWait class
+=========================================================
+WebElement Imp Commands
+========================
+1.getText()
+================
+- to get visible text of any webelement we use getText()
+- to get inner html text also we use getText()
+
+2.getAttribute(attribute name)
+================================
+- this method help you to get the value of any attribute
 
 
 
 
 
 
-1.Browser Commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Selenium Exceptions
+===========================
+1.InvalidArgumentException: invalid argument
+for wrong url
+2.NoSuchElementException: If element not found using findElement()
+
+=========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

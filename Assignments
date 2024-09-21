@@ -2,3 +2,14 @@ Assignment1:
 =================
 Open Application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 and validate Title should be OrangeHRM
+
+Assignment2:
+Automate https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+ login and logout scenario
+
+
+Assignment3:
+ Automate https://www.naukri.com/ this application
+Count total links on this page and get the text and attribute(href) value
+
+

@@ -9,8 +9,10 @@ public class GoogleTitleValidation {
 	{
 		//Create a driver session
 		WebDriver driver=new ChromeDriver();
+		
 		//To open Google application
 		driver.get("https://www.google.com");
+		
 		//To get the actual title -getTitle()
 		String actTitle=driver.getTitle();
 		String exp="Google";
