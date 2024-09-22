@@ -96,7 +96,7 @@ Selenium Support total 8 Locators
 5.By partialLinkText
 6.By tagName
 
-dynamic Loctaors
+dynamic Locators
 ==================
 7.By cssSelctor
 8.By xpath
@@ -212,6 +212,277 @@ WebElement Imp Commands
 2.getAttribute(attribute name)
 ================================
 - this method help you to get the value of any attribute
+
+==============================================================
+22-09-2024
+===================
+Dynamic Locators
+=================
+1.By cssSelector
+2.By xpath
+
+1.cssSelector
+=======================
+cssSelector is a locator to identify webelement based on css attribute
+cssSelector is faster than xpath as it travels in one direction(parent-->child)
+cssSelector doesnt support methods
+cssSelector is not based on indexing
+
+1.tagname with id
+=====================
+Syntax:
+=========
+tagname#id
+
+id="input-email"
+
+input#input-email   1 of 1
+
+#input-email
+
+2.tagname with attribute
+==========================
+Syntax:
+=============
+tagname[attribute='value']
+
+<input placeholder="Password">
+input[placeholder='Password']
+
+3.tagname with classname
+============================
+Syntax:
+==========
+tagname.className
+
+<input type="submit" value="Login" class="btn btn-primary">
+
+input.btn.btn-primary
+
+4.tagname with id,classname,attribute
+=======================================
+tagname#id.classname[attribute='value']
+
+==========================================================
+
+cssSelector supports special character
+-----------------------------------------
+1.contains (*)-partial match
+=====================
+syntax:
+===========
+tagname[attribute *='partail value']
+
+<input placeholder="E-Mail Address">
+
+input[placeholder *='E-Mail']
+
+2.stratswith(^)-prefix
+========================
+Syntax:
+===============
+tagname[attribute ^='prefix value']
+
+<input placeholder="Password">
+
+input[placeholder ^='Pas']
+
+3.endsWith($)-suffix
+========================
+Syntax:
+============
+tagname[attribute $='suffix value']
+
+<input class="btn btn-primary">
+
+input[class $='mary']
+==============================================================
+Xpath
+==============
+Xpath is path of the weblement from any xml/html page
+Xpath identify element directly from DOM
+Xpath supports indexing/position
+Xpath supports multiple methods
+Xpath travels in both direction
+
+DOM document object model
+==============================
+<html>--------------root
+<head>
+</head>
+
+<body>
+<input>
+<a>-----------------element
+<div>
+</body>
+
+</html>
+====================================
+Types of Xpath
+=====================
+1.Absolute xpath
+====================
+- Absolute xpath identify element from the root node
+- Absolute xpath start with '/'
+
+/html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input
+
+2.Relative xpath
+===================
+- Relative xpath identify element from its relative property
+- Relative xpath starts with '//'
+
+//*[@id="input-email"]
+
+Syntax:
+===============
+//tagname[@attribute='value']
+=======================================================
+xpath with Operators
+=========================
+1. and 
+================
+Syntax:
+==========
+//tagname[@attribute1='value' and @attribute2='value']
+
+2. or
+===============
+Syntax:
+==========
+//tagname[@attribute1='value' or @attribute2='value'] 
+
+============================================================
+
+Xpath with indexing and position()
+======================================
+Syntax:
+=============
+(xpath)[index]
+
+//input[@class='form-control']  1 of 6
+(//input[@class='form-control'])[2]-----1 of 1 match
+
+position()
+===================
+(xpath)[position()=index]
+
+===================================================
+Xpath Methods
+=================
+1.text()
+=================
+to get the element based on visible text
+text() never ignore white space
+
+Syntax
+============
+//tagname[text()='visible text']
+
+
+2.normalize-space()
+==========================
+To get the element based visible text
+normalize-space() works like trim() of string -ignore white space
+Syntax:
+===========
+//tagname[normalize-space()='visible text']
+
+
+3.contains()partial match
+===================
+Syntax:
+===========
+//tagname[contains(@attribute,'partial value')]
+
+or 
+//tagname[contains(text(),'partial text')]
+
+
+4.starts-with()
+======================
+Syntax:
+===========
+//tagname[starts-with(@attribute,'prefix value')]
+
+==============================================================
+Xpath Axies
+===================
+
+
+Relative locators (Selenium 4)
+=================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

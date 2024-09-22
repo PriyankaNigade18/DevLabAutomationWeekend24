@@ -4,12 +4,32 @@ Open Application https://opensource-demo.orangehrmlive.com/web/index.php/auth/lo
 and validate Title should be OrangeHRM
 
 Assignment2:
+======================
 Automate https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
  login and logout scenario
 
 
 Assignment3:
+======================
  Automate https://www.naukri.com/ this application
 Count total links on this page and get the text and attribute(href) value
+
+
+22-09-2024
+================
+Assignment 4:
+====================
+ Automate application using only cssSelector
+https://www.saucedemo.com/v1/
+
+Assignment 5:
+================
+Automate https://www.amazon.in/ application get all the footer list and print inside the console
+
+
+Assignment 6:
+====================
+ Automate application using only xpath
+https://www.saucedemo.com/v1/
 
 
