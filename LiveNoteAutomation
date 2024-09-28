@@ -407,12 +407,147 @@ Syntax:
 //tagname[starts-with(@attribute,'prefix value')]
 
 ==============================================================
+28-09-2024
+=================
 Xpath Axies
 ===================
+<tbody>----------------GP of John
+<tr>-------------Parent of John
+       <td>4</td>----------Preceding sibling
 
+       <td>John</td>------Element
 
+       <td>Robinson</td>-------------
+								following sibling
+        <td>jr5527</td>--------------
+ 
+        <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a role="button" href="#myModal" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+
+        </tr>
+</tbody>
+
+1.ancestor
+===============
+Syntax:
+===========
+//tagname[@attribute='value']//ancestor::ancestor tagname
+
+2.Parent
+===============
+Syntax:
+===========
+//tagname[@attribute='value']//parent::parent tagname
+
+3.child
+===========
+Syntax:
+===========
+//tagname[@attribute='value']//child::child tagname
+
+4.following
+================
+Syntax:
+===========
+//tagname[@attribute='value']//following::following element tagname
+
+5.preceding
+===============
+Syntax:
+===========
+//tagname[@attribute='value']//preceding::preceding element tagname
+
+6.following-sibling
+============================
+Syntax:
+===========
+//tagname[@attribute='value']//following-sibling::following sibling element tagname
+
+7.preceding-sibling
+======================
+Syntax:
+===========
+//tagname[@attribute='value']//preceding-sibling::preceding sibling element tagname
+
+============================================================
 Relative locators (Selenium 4)
 =================================
+above()
+below()
+toLeftOf()
+toRightOf()
+toNearOf()
+
+========================================================================
+WebElements handling
+=========================
+TestNg Issue solution:
+after testng installation
+help-->check for update-->finish-->restart eclipse-->testng is visible
+
+DropDown Automation
+====================
+1.Select tag Based dropdown
+=================================
+In Selenium Select class available
+
+Select sc=new Select(dropdown element address);
+
+Is dropdown support multiple selection
+-------------------------------------------
+sc.isMultiple()
+
+Single value selection
+----------------------------
+1.selectByIndex()
+2.selectByValue("")
+3.selectByVisibleText("")
+
+
+To get all the options
+-----------------------------
+getOptions() returns List<WebElement>
+
+------------------------------------------------------
+2.Bootstrap/javascript/dynamic
+====================================
+Locator
+
+
+
+Window handling
+====================
+
+
+Alert
+==========
+
+
+Frame
+=============
+
+
+Calendar
+================
+
+
+WebTable static/pagination(dynamic)
+======================================
+
+
+Mouse operations using Actions class
+======================================
+
+
+TestNG framework
+=====================
+
+
+Cucumber Framework
+========================
+
 
 
 
