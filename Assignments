@@ -26,20 +26,35 @@ Assignment 5:
 ================
 Automate https://www.amazon.in/ application get all the footer list and print inside the console
 
-
 Assignment 6:
 ====================
  Automate application using only xpath
 https://www.saucedemo.com/v1/
 
+
+
 28-09-2024
 =====================
-
 Assignment on Dropdown 7:
 ==============================
 Automate https://www.goibibo.com/flights/ dropdown
 
-
 Assignment 8:
 =============================
 Automate redbus dropdown
+
+
+Assignment 9:
+=====================
+Automate alerts in iteration for https://the-internet.herokuapp.com/javascript_alerts
+
+
+Assignment 10:
+======================
+Complete the automation for frame using https://ui.vision/demo/webtest/frames/
+application
+
+
+Assignment 11:
+==================
+Complete the Nested frame handling for https://the-internet.herokuapp.com/nested_frames

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T22:11:56 IST" name="Default suite" finished-at="2024-09-28T22:12:00 IST" duration-ms="4338">
+  <suite started-at="2024-09-29T22:05:33 IST" name="Default suite" finished-at="2024-09-29T22:05:40 IST" duration-ms="7550">
     <groups>
     </groups>
-    <test started-at="2024-09-28T22:11:56 IST" name="Default test" finished-at="2024-09-28T22:12:00 IST" duration-ms="4338">
-      <class name="com.WebElementHandling.RedBusDropDown">
-        <test-method signature="testDropDown()[pri:0, instance:com.WebElementHandling.RedBusDropDown@35aea049]" started-at="2024-09-28T22:11:56 IST" name="testDropDown" finished-at="2024-09-28T22:12:00 IST" duration-ms="4284" status="PASS">
+    <test started-at="2024-09-29T22:05:33 IST" name="Default test" finished-at="2024-09-29T22:05:40 IST" duration-ms="7550">
+      <class name="com.WebElementHandling.GoibiboCalendarAutomation">
+        <test-method signature="testCalendar()[pri:0, instance:com.WebElementHandling.GoibiboCalendarAutomation@6283d8b8]" started-at="2024-09-29T22:05:33 IST" name="testCalendar" finished-at="2024-09-29T22:05:40 IST" duration-ms="7499" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropDown -->
-      </class> <!-- com.WebElementHandling.RedBusDropDown -->
+        </test-method> <!-- testCalendar -->
+      </class> <!-- com.WebElementHandling.GoibiboCalendarAutomation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

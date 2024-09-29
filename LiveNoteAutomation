@@ -515,23 +515,92 @@ getOptions() returns List<WebElement>
 ====================================
 Locator
 
-
+==========================================================
+29-09-2024
+===================
 
 Window handling
 ====================
+Multiple Window Handling
+===========================
+1.getWindowHandle(): String --> Parent sessionId
+2.getWindowHandles(): Set<String> --->All Windows Session ID(parent+child)
+To switch in between the windows
+--------------------------------
+3.switchTo()
 
+Selenium 4 feature
+---------------------------
+newWindow()
+============
+newWindow() return WebDriver interface object
 
+To open new Tab/New window
+-----------------------------------
+WebDriver tab=driver.switchTo().newWindow(WindowType.TAB);
+WebDriver window=driver.switchTo().newWindow(WindowType.WINDOW);
+-----------------------------
+
+============================================================================
 Alert
 ==========
+Selenium Provides Alert interface
+
+Types:
+==========
+1.Basic Alert with Ok button
+2.Confirmation Alert (ok+cancel)
+3.Prompt Alert
+
+Handling Alert
+------------------
+1.switch to alert window
+
+Methods
+--------------
+1.accept()-----Ok
+2.dismiss()---->cancel
+3.getText()------>get the text of alert
+4.sendKeys()------------>prompt alert
 
 
+How to handle basic Authentication
+========================================
+username & password
+
+https://username:password@appurl.com
+
+===========================================================
 Frame
 =============
+Html page embedded into other html page then it is frame
 
+<frame> or <iframe>
+
+Switch to frame
+----------------
+driver.switchTo().frame(arguments);
+
+Argument
+============
+1.frame(index)
+2.frame(id/name)
+3.frame(WebElement)
+
+Types
+===========
+1.Simple frame
+2.Nested Frame
+
+To switchTo main document
+=========================
+driver.switchTo().defaultContent();
 
 Calendar
 ================
-
+1.Expectation
+2.Select month
+3.select Date
 
 WebTable static/pagination(dynamic)
 ======================================
