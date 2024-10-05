@@ -602,13 +602,72 @@ Calendar
 2.Select month
 3.select Date
 
+===============================================
+5-10-2024
+=================
+
 WebTable static/pagination(dynamic)
 ======================================
+static table
+=================
+1.number of headings
+2.Number of rows
+3.Number of columns
+4.Specific row
+5.Specific column
+6.Get all data from table
 
+============================================
 
+synchronization in Selenium
+=============================
+Whenever there is time mapping issue in between selenium and application
+then it is called synchronization issue
+
+Selenium support two Dynamic wait
+====================================
+1.Implicit Wait
+====================
+- It is global wait 
+- applicable to all the webelements
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+2.Explicit Wait
+======================
+- It is applicable to one single element at a time
+- Based on certain condition we can apply wait
+
+In selenium we can implement Explicit wait using 2 classes
+===================
+1.WebDriverWait class
+2.FluentWait class
+
+WebDriverWait(c) extends FluentWait(c) implements Wait(I)
+
+====================================================
+What is default timeout set for
+implicit wait: 0
+PageLoadtimeout: 300000ms= 5mins
+ScriptTimeOut:30000ms=30sec
+
+timeouts: {implicit: 0, pageLoad: 300000, script: 30000}
+=================================================================
+JavascriptExecutor
+===========================
+JavascriptExecutor is interface
+- scroll
+-refresh page
+-get the title
+-interaction with webelement
+
+=================================
 Mouse operations using Actions class
 ======================================
-
+1.Rightclick--->ContextClick()
+2.doubleClick---->doubleClick()
+3.mouse over---->moveToElement()
+5.dragndrop----->dragAndDrop()
 
 TestNG framework
 =====================
