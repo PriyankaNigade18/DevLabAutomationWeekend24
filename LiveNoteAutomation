@@ -669,8 +669,132 @@ Mouse operations using Actions class
 3.mouse over---->moveToElement()
 5.dragndrop----->dragAndDrop()
 
+===================================
+Capabilities
+=====================
+Capabilities are options that you can use to 
+customize and configure a ChromeDriver session.
+
+chrome===>ChromeOptions class
+edge===>EdgeOptions
+firefox===>FirefoxOptions
+
+https://developer.chrome.com/docs/chromedriver/capabilities
+- test is incognito browser
+- test as headless
+----------------------
+selenium 3===>HTMLUnitDriver
+Selenium 4===>--headless
+
+
+==========================================================
 TestNG framework
 =====================
+
+testng.xml (Configuration file for project)
+============================================
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test" verbose="2">
+    <classes>
+      <class name="com.Capabilities.FileDownloadAutomation">
+        <methods>
+          <include name="testDownload"/>
+        </methods>
+      </class> <!-- com.Capabilities.FileDownloadAutomation -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+=================================================
+TestNG Arguments
+===========================
+1.Sequencing-->priority
+----------------------------
+By default test case will run in alphabetical order
+
+2.description
+-----------------------
+To set the description of test case use description
+
+3.invocationCount
+------------------------
+This is for iteration
+
+4.How to ignore/disable any test from execution
+===================================================
+1.using argument enabled=false
+2.using testng xml file -->exclude method
+----------------
+To create xml file --->right click on class --->testng--> 
+convert to testng
+<class name="com.TestNGFramework.TestDemo3_DisableTest">
+      <methods>
+      <exclude name="projectAssignProcess"></exclude>
+      </methods>
+</class>
+
+5.timeOut
+------------------
+Test execution timeout we can set using this argument
+
+6.group argument
+-------------------
+groups based on type of test case
+
+7.dependsOnMethods
+------------------------
+
+Assertion
+===============
+TestNG Assertion
+=====================
+1.Hard Assertion
+------------------------
+Assert class
+
+2.Soft Assertion
+---------------------
+SoftAssert
+====================================================
+
+Annotation
+===================
+Rules for test case
+
+Prerequisite
+==================
+@Before
+
+PostCondition
+==============
+@After
+How to use external data
+======================== 
+1.using xml file
+2.using properties file
+
+Data driven Testing
+==========================
+1.Using array
+2.Using Apache POI
+
+Screenshot
+================
+
+Listeners
+================
+ExtentReport using listeners
+
+
+Design pattern
+===============
+Page Object Model
+
+Hybrid framework design
+============================
+           
+
 
 
 Cucumber Framework

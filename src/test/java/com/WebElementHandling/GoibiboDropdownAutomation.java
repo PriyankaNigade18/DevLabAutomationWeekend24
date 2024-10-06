@@ -32,9 +32,18 @@ public class GoibiboDropdownAutomation {
 	  for(WebElement i:allOptions)
 	  {
 		  System.out.println(i.getText());
+		 if(i.getText().contains("Pantnagar, India"))
+		 {
+			 i.click();
+			 break;
+		 }
 	  }
 	  
 	  
+	  
+	  //driver.findElement(By.xpath("(//p[text()='Enter city or airport'])[1]")).click();
+	  
+	  driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Delhi");
 	  
 	  
   }
