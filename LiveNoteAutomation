@@ -742,7 +742,7 @@ convert to testng
 ------------------
 Test execution timeout we can set using this argument
 
-6.group argument
+6.groups argument
 -------------------
 groups based on type of test case
 
@@ -773,10 +773,49 @@ Prerequisite
 PostCondition
 ==============
 @After
+
+13-10-2024
+==================
+Page Object Model
+========================
+Page Object Model is design pattern for automation
+It helps to maintain the code and avoid duplication
+
+Ways
+===========
+1.Using by locator
+2.Using PageFactory class(realTime)
+
+======================================================
+Hybrid framework design
+============================
+Basic
+will continue......
+
+==================================================
 How to use external data
 ======================== 
 1.using xml file
+-----------------
+From xml file
+<parameter name="variable name" value="data"/>
+
+In Test case
+@Paramters({"variablename"})
+
 2.using properties file
+===============================
+it can store configuration details of object
+
+Selenium doesnt support any object Repository
+--------------------------------------------------
+We can implement Object Reporsitory in Selenium 
+using PageObject model
+Using properties file
+
+===========================================================
+
+
 
 Data driven Testing
 ==========================
@@ -791,12 +830,8 @@ Listeners
 ExtentReport using listeners
 
 
-Design pattern
-===============
-Page Object Model
 
-Hybrid framework design
-============================
+
            
 
 

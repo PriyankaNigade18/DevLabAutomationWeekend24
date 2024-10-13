@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T21:59:35 IST" name="Default suite" finished-at="2024-10-06T21:59:42 IST" duration-ms="6598">
+  <suite started-at="2024-10-13T22:13:19 IST" name="Default suite" finished-at="2024-10-13T22:13:27 IST" duration-ms="8140">
     <groups>
     </groups>
-    <test started-at="2024-10-06T21:59:35 IST" name="Default test" finished-at="2024-10-06T21:59:42 IST" duration-ms="6598">
-      <class name="com.TestNGFramework.CRMAnnotationDemo_RealTimeUse">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:35 IST" name="setup" finished-at="2024-10-06T21:59:39 IST" duration-ms="3601" status="PASS">
+    <test started-at="2024-10-13T22:13:19 IST" name="Default test" finished-at="2024-10-13T22:13:27 IST" duration-ms="8140">
+      <class name="com.TestNGFramework.TestDataFromExternalFile.HrmLoginWithPropertiesFile">
+        <test-method signature="hrmLogin()[pri:0, instance:com.TestNGFramework.TestDataFromExternalFile.HrmLoginWithPropertiesFile@611889f4]" started-at="2024-10-13T22:13:19 IST" name="hrmLogin" finished-at="2024-10-13T22:13:27 IST" duration-ms="8097" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAppTitle()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:39 IST" name="getAppTitle" finished-at="2024-10-06T21:59:39 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAppTitle -->
-        <test-method signature="testSignInLink()[pri:1, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:39 IST" name="testSignInLink" finished-at="2024-10-06T21:59:41 IST" duration-ms="1866" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignInLink -->
-        <test-method is-config="true" signature="getAppUrl()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:41 IST" name="getAppUrl" finished-at="2024-10-06T21:59:41 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAppUrl -->
-        <test-method is-config="true" signature="getAppTitle()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:41 IST" name="getAppTitle" finished-at="2024-10-06T21:59:41 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAppTitle -->
-        <test-method signature="testSignInFunctionality()[pri:2, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:41 IST" name="testSignInFunctionality" finished-at="2024-10-06T21:59:41 IST" duration-ms="706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignInFunctionality -->
-        <test-method is-config="true" signature="getAppUrl()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:41 IST" name="getAppUrl" finished-at="2024-10-06T21:59:41 IST" duration-ms="127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAppUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNGFramework.CRMAnnotationDemo_RealTimeUse@4dbb42b7]" started-at="2024-10-06T21:59:41 IST" name="tearDown" finished-at="2024-10-06T21:59:42 IST" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNGFramework.CRMAnnotationDemo_RealTimeUse -->
+        </test-method> <!-- hrmLogin -->
+      </class> <!-- com.TestNGFramework.TestDataFromExternalFile.HrmLoginWithPropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
