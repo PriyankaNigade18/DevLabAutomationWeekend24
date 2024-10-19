@@ -12,7 +12,7 @@ public class InventoryPageTest extends BaseTest
 	@BeforeClass
 	public void pageSetUp()
 	{
-		ip=lp.doLogin("standard_user","secret_sauce");
+		ip=lp.doLogin(prop.getData("un"),prop.getData("psw"));
 	}
   @Test(priority=1)
   public void validateProductCount()
@@ -31,7 +31,7 @@ public class InventoryPageTest extends BaseTest
   @Test(priority=3)
   public void validateAddToCartFeature()
   {
-	  ip.addProductToCart("Sauce Labs Fleece Jacket");
+	  ip.addProductToCart(prop.getData("pname1"));
   }
   
   

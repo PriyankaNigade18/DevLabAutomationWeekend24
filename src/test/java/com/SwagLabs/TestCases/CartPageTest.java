@@ -10,9 +10,9 @@ public class CartPageTest extends BaseTest
 	@BeforeClass
 	public void pageSetUP()
 	{
-		ip=lp.doLogin("standard_user","secret_sauce");
+		ip=lp.doLogin(prop.getData("un"),prop.getData("psw"));
 		addWait();
-		ip.addProductToCart("Sauce Labs Fleece Jacket");
+		ip.addProductToCart(prop.getData("pname1"));
 		addWait();
 		cp=ip.getCartPage();
 		addWait();
@@ -36,7 +36,7 @@ public class CartPageTest extends BaseTest
   {
 	  ip=cp.doContinueShopping();
 	  addWait();
-	  ip.addProductToCart("Sauce Labs Bike Light");
+	  ip.addProductToCart(prop.getData("pname2"));
 	  addWait();
 	  cp=ip.getCartPage();
 	  addWait();

@@ -9,7 +9,7 @@ public class LoginPage
 {
 	WebDriver driver;
 	
-	public LoginPage(WebDriver driver)
+	public LoginPage(WebDriver driver)//base class
 	{
 		this.driver=driver;
 	PageFactory.initElements(driver,this);	

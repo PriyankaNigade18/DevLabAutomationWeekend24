@@ -49,7 +49,7 @@ public class CartPage
 	public CheckOutPage doCheckout()
 	{
 		checkoutbtn.click();
-		return new CheckOutPage();
+		return new CheckOutPage(driver);
 	}
 	
 	

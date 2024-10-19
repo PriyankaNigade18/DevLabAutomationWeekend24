@@ -28,7 +28,7 @@ public class LoginPageTest extends BaseTest
   @Test(priority=3)
   public void validateLogin()
   {
-	  lp.doLogin("standard_user","secret_sauce");
+	  lp.doLogin(prop.getData("un"),prop.getData("psw"));
 	  AssertJUnit.assertTrue(lp.getAppUrl().contains("inventory"));
 	  System.out.println("Login completed!");
 	  
