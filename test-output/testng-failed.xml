@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGFramework.TestDataFromExternalFile.TestDataFromXmlfile">
+      <class name="com.TestNGFramework.Listeners.AppyRetry">
         <methods>
-          <include name="loginTest"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- com.TestNGFramework.TestDataFromExternalFile.TestDataFromXmlfile -->
+      </class> <!-- com.TestNGFramework.Listeners.AppyRetry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

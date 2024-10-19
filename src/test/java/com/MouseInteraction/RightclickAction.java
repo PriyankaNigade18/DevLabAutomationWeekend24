@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 public class RightclickAction {
   @Test
   public void testRightclick() throws InterruptedException
@@ -22,6 +24,7 @@ public class RightclickAction {
 	  //Actions is class
 	  Actions act=new Actions(driver);
 	  act.contextClick(eleBtn).perform();
+	  Utility.getScreenshot(driver,"RightclickAction");
 	  
 	  List<WebElement> list=driver.findElements(By.xpath("(//ul)[3]//li//span"));
 	  

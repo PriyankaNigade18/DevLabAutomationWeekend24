@@ -790,7 +790,7 @@ Ways
 Hybrid framework design
 ============================
 Basic
-will continue......
+
 
 ==================================================
 How to use external data
@@ -814,21 +814,48 @@ using PageObject model
 Using properties file
 
 ===========================================================
-
-
-
+19-10-2024
+==============
 Data driven Testing
 ==========================
 1.Using array
 2.Using Apache POI
 
+============================
 Screenshot
 ================
+TakesScreenshot interface
+==============================
+Parallel Testing/CrossBrowserTest
+=====================
+At test level
+At clas level
+At method level
+=======================
+
+Retry analyzer
+===============
+done
 
 Listeners
 ================
 ExtentReport using listeners
 
+Project Execution
+====================
+1.Using pom.xml
+2.Using CLI
+3.Using Jenkins
+
+grid
+================
+install docker desktop
+
+
+
+
+Cucumber framework
+======================
 
 
 
@@ -836,8 +863,7 @@ ExtentReport using listeners
 
 
 
-Cucumber Framework
-========================
+
 
 
 
