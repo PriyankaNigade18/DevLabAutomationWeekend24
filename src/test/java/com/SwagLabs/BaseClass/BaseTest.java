@@ -1,5 +1,11 @@
 package com.SwagLabs.BaseClass;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
@@ -51,5 +57,18 @@ public class BaseTest
 			e.printStackTrace();
 		}
 	}
+	
+	public  String captureScreen(String tname)
+	{
+	String timestamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+	 TakesScreenshot ts=(TakesScreenshot)driver;
+	 File source=ts.getScreenshotAs(OutputType.FILE);
+	String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\"+tname+"_"+timestamp+".png";
+	File targetFile=new File(targetFilePath);
+	source.renameTo(targetFile);
+	return targetFilePath;
+		
+	}
+
 
 }
