@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RestAPITest.GETRequestWithBDD">
+      <class name="com.RestAPITest.TestHoteBookingAPIs">
         <methods>
-          <include name="singleObjectTest"/>
+          <include name="partialUpdateBooking"/>
         </methods>
-      </class> <!-- com.RestAPITest.GETRequestWithBDD -->
+      </class> <!-- com.RestAPITest.TestHoteBookingAPIs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
